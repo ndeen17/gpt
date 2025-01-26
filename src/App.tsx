@@ -174,8 +174,8 @@ function App() {
                 <div className="flex-1 space-y-6 overflow-y-auto">
                   {!currentChat?.messages.length ? (
                     <div className="flex flex-col items-center justify-center h-[calc(100vh-200px)] text-center px-4">
-                      <h2 className="text-2xl font-semibold text-gray-900 mb-2">How can I help you today?</h2>
-                      <p className="text-gray-600 max-w-md">I'm a helpful AI assistant ready to assist you with any questions or tasks you have.</p>
+                      <h2 className="text-2xl font-semibold text-gray-900 mb-2">What name can I help you explore today?</h2>
+                      <p className="text-gray-600 max-w-md">I’m Orúkọ.mi, your guide to uncovering the meanings, heritage, and beauty behind Nigerian names.</p>
                     </div>
                   ) : (
                     currentChat.messages.map((message, index) => (
@@ -207,7 +207,7 @@ function App() {
                     </button>
                   </form>
                   <p className="mt-2 text-xs text-center text-gray-400">
-                    Free Research Preview. ChatGPT may produce inaccurate information.
+                  Orúkọ.mi is still under development may produce inaccurate information.
                   </p>
                 </div>
               </div>
